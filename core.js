@@ -14,6 +14,8 @@ function setSectionStat() {
         }
     }
 }
+
+// execute
 setSectionStat();
 for (let i = 0; i < SecBtns.length; i++) {
     SecBtns[i].onclick = () => {
