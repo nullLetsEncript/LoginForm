@@ -6,7 +6,7 @@
         <title>Document</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body dir="rtl">
+    <body dir="rtl" id="SignPage">
         <ul id="choose">
             <h4>نمونه ها</h4>
             <li class="divider"></li>
@@ -17,8 +17,76 @@
         <section class="Section">
             <h2>Section 1</h2>
         </section>
-        <section class="Section">
-            <h2>Section 2</h2>
+        <section class="Section ">
+            <div class="SignPanel">
+                <div id="Home">
+                    <h4>انتخاب کنید:</h4>
+                    
+                    <button class="LoginPanelButton">ثبت نام</button>
+                    <button class="LoginPanelButton">لاگین</button>
+                </div>
+                <div id="SignUp">
+                    <div class="SignIcon">
+                        <img src=""/>
+                    </div>
+                    <a class="Backwards"><-</a>
+                    <h4>ثبت نام</h4>
+                    <form method="post">
+                        <div class="SignUpPanelDiv">
+                            <label for="email">ایمیل:</label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="LoginPanelDiv">
+                            <label for="pass2">پسوورد:</label>
+                            <div class="PasswordArea">
+                                <input type="password" id="pass2">
+                                <a></a>
+                            </div>
+                        </div>
+                        <div class="LoginPanelDiv">
+                            <label for="pass3">تکرار پسوورد:</label>
+                            <div class="PasswordArea">
+                                <input type="password" id="pass3">
+                                <a></a>
+                            </div>
+                        </div>
+                        <button class="LoginPanelButton" id="registry">ثبت نام</button>
+                    </form>
+                </div>
+                <div id="Login">
+                    <div class="SignIcon">
+                        <img src=""/>
+                    </div>
+                    <a class="Backwards"><-</a>
+                    <h4>لورم ایپسوم</h4>
+                    <form method="post">
+                        <div class="LoginPanelDiv">
+                            <label for="user2">یوزریم:</label>
+                            <input type="text" id="user2">
+                        </div>
+                        <div class="LoginPanelDiv">
+                            <label for="pass">پسوورد:</label>
+                            <div class="PasswordArea">
+                                <input type="text" id="pass">
+                                <a></a>
+                            </div>
+                        </div>
+                        <button class="LoginPanelButton" id="login">لاگین</button>
+                    </form>
+                    <a class="LoginPanelForgot" id="forget">پسسورد خود را فراموش کرده اید؟</a>
+                </div>
+                <div id="Code">
+                    <div class="SignIcon">
+                        <img src=""/>
+                    </div>
+                    <a class="Backwards"><-</a>
+                    <h4>کد ارسال شده رو وارد کنید</h4>
+                    <form>
+                        <div class="Verifaction" data-len="5"></div>
+                        <button class="LoginPanelButton" id="verify">تایید</button>
+                    </form>
+                </div>
+            </div>
             
         </section>
         <section class="Section">
