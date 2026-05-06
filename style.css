@@ -1,0 +1,40 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+#choose {
+    position: fixed;
+    inset: 5px auto auto 5px;
+    background-color: aliceblue;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: wrap;
+    padding: 6px 12px;
+    box-shadow: 0 0 12px #aaa;
+    list-style: upper-roman inside;
+}
+#choose > li.divider {
+    width: 100%;
+    display: block;
+    height: 0;
+    border: 1px solid #C6C6C6;
+    margin: 5px 0;
+}
+#choose > li {
+    cursor: pointer;
+    color: #333;
+    transition: .3s color;
+    -webkit-transition: .3s color;
+    -moz-transition: .3s color;
+    -ms-transition: .3s color;
+    -o-transition: .3s color;
+}
+#choose > li:hover {
+    color: #888;
+}
