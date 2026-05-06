@@ -1,6 +1,6 @@
 // get control
-const sections = [document.getElementById("1"), document.getElementById("2"), document.getElementById("3")];
-const SecBtns = [document.getElementById("sec1"),document.getElementById("sec2"), document.getElementById("sec3")];
+const sections = document.querySelectorAll(".Section");
+const SecBtns = document.querySelectorAll(".secBtns");
 
 // prepare
 let nowSec = 0;
